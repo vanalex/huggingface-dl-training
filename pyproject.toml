@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "huggingface-nlp-training"
+version = "0.1.0"
+description = ""
+authors = ["vanalex <apjorquera@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+transformers="^4.46.3"
+tensorflow="^2.18.0"
+tf-keras="^2.18.0"
+torch="2.5.1"
+accelerate="1.2.0"
+sentence-transformers="3.3.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
